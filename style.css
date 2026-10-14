@@ -1,0 +1,13 @@
+body {
+    background-color: #AECFD0 ;
+}
+
+.header{
+    width: fit-content;
+    max-width: 100%;
+}
+
+.navBar{
+    background-color: #818546;
+    padding: 20px;
+}
