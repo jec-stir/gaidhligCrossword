@@ -11,3 +11,49 @@ body {
     background-color: #818546;
     padding: 20px;
 }
+
+.demo {
+    background-color: white;
+    padding: 20px;
+}
+
+table{
+    background: #AECFD0;
+    display: inline-block;
+    vertical-align: middle;
+}
+th{
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+th span{
+    font-size: 10px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+ 
+.white:hover{
+    background-color: #F7E9B2;
+}
+
+.clues, .across{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+.down{
+    display: inline-block;
+    padding: 20px;
+}
