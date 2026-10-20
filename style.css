@@ -58,11 +58,10 @@ table{
     display: inline-block;
     vertical-align: middle;
 }
-th{
+td{
     width: 40px;
     height: 40px;
     position: relative;
-    
 }
 
 .b {
@@ -73,7 +72,7 @@ th{
     background-color: white;
 }
 
-th span{
+td span{
     font-size: 10px;
     position: absolute;
     top: 2px;
