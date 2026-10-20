@@ -64,12 +64,14 @@ td{
     position: relative;
 }
 
-.b {
-    background-color: black;
-}
-
-.w {
-    background-color: white;
+input{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border: white;
+    font-size: 25px;
+    font-family: 'Sarina';
+    text-align: center;
 }
 
 td span{
@@ -78,6 +80,15 @@ td span{
     top: 2px;
     left: 2px;
 }
+.b {
+    background-color: black;
+}
+
+.w {
+    background-color: white;
+}
+
+
  
 .white:hover{
     background-color: #F7E9B2;
@@ -89,7 +100,7 @@ td span{
     padding: 20px;
 }
 
-.catagory{
+.category{
     background-color:#F49625;
     color: white; 
     border: none;
@@ -104,7 +115,7 @@ td span{
 
 }
 
-.buttons{
-    position: relative;
-
+.disappearingButton{
+    opacity: 0;
+    visibility: hidden;
 }
