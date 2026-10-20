@@ -1,15 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Sarina');
+
 body {
     background-color: #AECFD0 ;
+    font-family: 'Sarina';
 }
 
 .header{
-    width: fit-content;
-    max-width: 100%;
+    background-image: url('Assets/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
 }
 
-.navBar{
+h1{
+    color: white;
+    font-family: 'Sarina';
+    font-size: 48px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    padding: 0;
+    overflow: hidden;
     background-color: #818546;
-    padding: 20px;
+    display: flex;
+    text-align: center;
+}
+
+ul li {
+    float: middle;
+}
+
+ul li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #55582c;
 }
 
 .demo {
@@ -23,16 +59,17 @@ table{
     vertical-align: middle;
 }
 th{
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     position: relative;
+    
 }
 
-.black {
+.b {
     background-color: black;
 }
 
-.white {
+.w {
     background-color: white;
 }
 
@@ -47,13 +84,28 @@ th span{
     background-color: #F7E9B2;
 }
 
-.clues, .across{
+.clues, .across, .down{
     display: inline-block;
     vertical-align: middle;
     padding: 20px;
 }
 
-.down{
+.catagory{
+    background-color:#F49625;
+    color: white; 
+    border: none;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
-    padding: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 50px;
+    font-size: 30px;
+
+}
+
+.buttons{
+    position: relative;
+
 }
