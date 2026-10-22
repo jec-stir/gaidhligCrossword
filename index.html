@@ -6,7 +6,7 @@
     </head>
     <body>
         <div class="header">
-            <h1> Gàidhlig Crosswords</h1>
+            <h1> <a href="index.html">Gàidhlig Crosswords</a></h1>
         </div>
 
         <div>
@@ -20,14 +20,21 @@
         </div>
 
         <div class="demo">
+
+            <h3>How to Play</h3>
+            <p>Each clue is the english translation of a Gaelic word. 
+                Find the coordinating clue number with the number on the crossword. 
+                Write in your answers, one letter per block. After you have completed the crossword, 
+                press Check Answer and the squares with the correct letter in them will appear green.
+                Don't forget accents! </p>
             
-            <button onclick="createFrameBoxes(numberValues)">Play Demo</button>
+            <button onclick="createFrameBoxes(numberValues);changeDisplay();" id="playButton">Play Demo</button>
             <p id="demo"></p>
             
             <table id="board"> </table>
-            <div class="clues">
+            <div id="clues">
                 <h2> Numbers 1-10</h2>
-                <div class="across">
+                <div id="across">
                     <h3>Across</h3>
                     <p>1. One</p>
                     <p>4. Seven</p>
@@ -36,7 +43,7 @@
                     <p>7. Ten</p>
                 </div>
 
-                <div class="down">
+                <div id="down">
                     <h3>Down</h3>
                 <p>2. Eight</p>
                 <p>3. Nine</p>
@@ -46,8 +53,8 @@
                 </div>
             </div>
 
-            <div>
-                <button onclick="checkAnswer();"> Check </button>
+            <div id="checkButton">
+                <button onclick="checkAnswer();"> Check Answer </button>
             </div>
             
         </div>

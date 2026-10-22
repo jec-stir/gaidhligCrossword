@@ -47,8 +47,13 @@ function createFrameBoxes(values){
     });
 
     document.getElementById("demo").appendChild(table);
+}
 
-    const playButton = document.getElementById("button");
+function changeDisplay(){
+    document.getElementById("playButton").style.display = "none";
 
-    playButton.classList.add("disappearingButton");
+    document.getElementById('checkButton').style.display = "inline-block";
+    document.getElementById('down').style.display = "inline-block";
+    document.getElementById('across').style.display = "inline-block";
+    document.getElementById("clues").style.display = "inline-block";
 }

@@ -6,21 +6,26 @@
     </head>
     <body>
        <div class="header">
-            <h1> Gàidhlig Crosswords </h1>
+            <h1> <a href="index.html">Gàidhlig Crosswords</a></h1>
         </div>
         
         <div>
             <ul class="navBar">
                 <li> <a href="a1.html">A1</a></li>
                 <li> <a href="a2.html">A2</a></li>
-                <li> <a href="b1.html">B1</a></li>
+                <li style="background-color: #55582c;"> <a href="b1.html">B1</a></li>
                 <li> <a href="b2.html">B2</a></li>
             </ul>
         </div>
 
+        <div class="descriptions">
+            <h3>Intermediate</h3>
+            <p>B1 is for intermediate learners, you are able to communicate in the language but still have large vocabulary gaps</p>
+        </div>
+
         <div>
-            <button class="catagory">Modes of transport</button>
-            <button class="catagory">Food</button>
+            <button class="catagory" onclick="createFrameBoxes(numberValues)">Modes of transport</button>
+            <button class="catagory" onclick="createFrameBoxes(numberValues)">Food</button>
         </div>
 
         <div class = "transport">
